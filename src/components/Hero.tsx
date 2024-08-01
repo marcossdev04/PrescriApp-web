@@ -26,12 +26,10 @@ export const Hero = () => {
                 <FileDown size={30} />
               </a>
               <a
-                href="https://github.com/web3templates/nextly-template/"
-                target="_blank"
-                rel="noopener"
+                href="/design"
                 className="flex items-center gap-2 rounded-md border px-8 py-4 text-center text-lg font-medium text-white "
               >
-                <span className="text-xl"> Prescrição Manual</span>
+                <span className="text-xl"> Criar Prescrição</span>
                 <FilePlus size={30} />
               </a>
             </div>

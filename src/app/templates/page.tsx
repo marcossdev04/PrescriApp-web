@@ -1,9 +1,9 @@
-import { FileText, Plus, Search, SquarePen, Trash2 } from 'lucide-react'
+import { FileText, Search, SquarePen, Trash2 } from 'lucide-react'
 
 export default function Template() {
   return (
     <div className="mx-auto flex max-w-[600px] flex-col rounded-xl border bg-white bg-opacity-20 shadow-2xl ">
-      <div className="flex items-center justify-between border-b border-gray-600 p-3">
+      <div className="flex items-center justify-between border-b border-gray-600 p-3 ">
         <div className="flex items-center gap-2 text-2xl font-medium">
           <div>Modelos</div>
           <div>
@@ -19,9 +19,6 @@ export default function Template() {
           />
           <Search size={32} className="cursor-pointer" />
         </div>
-        <button className="rounded-full bg-green-500 p-1 hover:bg-opacity-80">
-          <Plus size={32} />
-        </button>
       </div>
       <div className="flex flex-col">
         <div className="flex justify-between p-3">

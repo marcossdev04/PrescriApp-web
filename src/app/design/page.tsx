@@ -1,5 +1,6 @@
 'use client'
-import { Plus, Printer } from 'lucide-react'
+import { FooterDesign } from '@/components/FooterDesign'
+import { Plus, Printer, Trash2 } from 'lucide-react'
 import { useState } from 'react'
 
 export default function Design() {
@@ -8,24 +9,20 @@ export default function Design() {
   const handleTitleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setTitle(event.target.value)
   }
-  console.log(title)
 
   const [section, setSection] = useState<
     {
       title: string | null
-      description1: string | null
-      description2: string | null
+      description1: { desc1: string | null; desc2: string | null }[]
       description3: string | null
     }[]
   >([
     {
       title: null,
-      description1: null,
-      description2: null,
+      description1: [{ desc1: null, desc2: null }],
       description3: null,
     },
   ])
-  console.log(section)
 
   const handleSectionTitleChange = (
     index: number,
@@ -33,24 +30,6 @@ export default function Design() {
   ) => {
     const newSection = [...section]
     newSection[index].title = event.target.value
-    setSection(newSection)
-  }
-
-  const handleSectionDescription1Change = (
-    index: number,
-    event: React.ChangeEvent<HTMLInputElement>,
-  ) => {
-    const newSection = [...section]
-    newSection[index].description1 = event.target.value
-    setSection(newSection)
-  }
-
-  const handleSectionDescription2Change = (
-    index: number,
-    event: React.ChangeEvent<HTMLInputElement>,
-  ) => {
-    const newSection = [...section]
-    newSection[index].description2 = event.target.value
     setSection(newSection)
   }
 
@@ -69,11 +48,41 @@ export default function Design() {
       ...section,
       {
         title: null,
-        description1: null,
-        description2: null,
+        description1: [{ desc1: null, desc2: null }],
         description3: null,
       },
     ])
+  }
+
+  // Função para adicionar um novo item ao description1
+  const handleAddDescriptionItem = (sectionIndex: number) => {
+    const newSection = [...section]
+    newSection[sectionIndex].description1.push({ desc1: null, desc2: null })
+    setSection(newSection)
+  }
+
+  // Função para remover um item específico de description1
+  const handleRemoveDescriptionItem = (
+    sectionIndex: number,
+    descIndex: number,
+  ) => {
+    const newSection = [...section]
+    newSection[sectionIndex].description1 = newSection[
+      sectionIndex
+    ].description1.filter((_, index) => index !== descIndex)
+    setSection(newSection)
+  }
+
+  // Funções para alterar description1 items
+  const handleDescription1Change = (
+    sectionIndex: number,
+    descIndex: number,
+    field: 'desc1' | 'desc2',
+    value: string,
+  ) => {
+    const newSection = [...section]
+    newSection[sectionIndex].description1[descIndex][field] = value
+    setSection(newSection)
   }
 
   return (
@@ -93,57 +102,102 @@ export default function Design() {
             className="w-full border bg-transparent px-2 text-center text-2xl font-medium"
             type="text"
             value={title}
-            onChange={handleTitleChange} // Função onChange para o título principal
+            onChange={handleTitleChange}
           />
         </div>
         <div className="flex flex-col gap-5">
-          {section.map((sec, index) => (
-            <div key={index} className="border border-zinc-400">
+          {section.map((sec, sectionIndex) => (
+            <div key={sectionIndex} className="border border-zinc-400">
               <div className="bg-green-600">
                 <input
                   className="w-full bg-transparent px-2 text-xl font-medium"
                   type="text"
                   value={sec.title || ''}
-                  onChange={(e) => handleSectionTitleChange(index, e)} // Função onChange para o título da seção
+                  onChange={(e) => handleSectionTitleChange(sectionIndex, e)}
                 />
               </div>
-              <div className="grid grid-cols-5 items-center bg-green-600 bg-opacity-25">
-                <div className="col-span-2 text-sm">
-                  <input
-                    className="w-full bg-transparent px-2 text-lg font-medium"
-                    type="text"
-                    value={sec.description1 || ''}
-                    onChange={(e) => handleSectionDescription1Change(index, e)} // Função onChange para description1
-                  />
-                </div>
-                <div className="col-span-3 border-l border-zinc-400 text-sm">
-                  <input
-                    className="w-full bg-transparent px-2 text-lg font-medium"
-                    type="text"
-                    value={sec.description2 || ''}
-                    onChange={(e) => handleSectionDescription2Change(index, e)} // Função onChange para description2
-                  />
-                </div>
-              </div>
+              {sec.description1.map((desc, descIndex) => {
+                const total = sec.description1.length
+                const count = descIndex + 1
+                return (
+                  <div
+                    key={descIndex}
+                    className={`grid grid-cols-12 items-center ${descIndex % 2 === 0 ? 'bg-green-400' : ''} bg-opacity-25`}
+                  >
+                    <div className="col-span-5 text-sm">
+                      <input
+                        className="w-full bg-transparent px-2 text-lg font-medium"
+                        type="text"
+                        value={desc.desc1 || ''}
+                        onChange={(e) =>
+                          handleDescription1Change(
+                            sectionIndex,
+                            descIndex,
+                            'desc1',
+                            e.target.value,
+                          )
+                        }
+                      />
+                    </div>
+                    <div className="col-span-6 flex border-l border-zinc-400 text-sm">
+                      <input
+                        className="w-full bg-transparent px-2 text-lg font-medium"
+                        type="text"
+                        value={desc.desc2 || ''}
+                        onChange={(e) =>
+                          handleDescription1Change(
+                            sectionIndex,
+                            descIndex,
+                            'desc2',
+                            e.target.value,
+                          )
+                        }
+                      />
+                    </div>
+                    <div className="col-span-1 flex items-center justify-end px-3 text-sm">
+                      <div className={`${total === count ? '' : 'hidden'}`}>
+                        <Plus
+                          size={27}
+                          className="cursor-pointer  hover:text-green-600"
+                          onClick={() => handleAddDescriptionItem(sectionIndex)}
+                        />
+                      </div>
+                      <div
+                        className={`${total === 1 && count === 1 ? 'hidden' : ''}`}
+                      >
+                        <Trash2
+                          className="cursor-pointer hover:text-red-600"
+                          onClick={() =>
+                            handleRemoveDescriptionItem(sectionIndex, descIndex)
+                          }
+                        />
+                      </div>
+                    </div>
+                  </div>
+                )
+              })}
               <div className="grid grid-cols-5 items-center bg-green-600 bg-opacity-25">
                 <div className="col-span-5 text-sm">
                   <input
                     className="w-full bg-transparent px-2 py-1 text-lg font-medium"
                     type="text"
                     value={sec.description3 || ''}
-                    onChange={(e) => handleSectionDescription3Change(index, e)} // Função onChange para description3
+                    onChange={(e) =>
+                      handleSectionDescription3Change(sectionIndex, e)
+                    }
                   />
                 </div>
               </div>
             </div>
           ))}
           <button
-            onClick={handleAddSection} // Adicionando nova seção ao clicar
+            onClick={handleAddSection}
             className="border-3 flex h-32 items-center justify-center border-4 border-dashed bg-green-400 bg-opacity-20"
           >
             <Plus size={70} className="text-zinc-400" />
           </button>
         </div>
+        <FooterDesign />
       </div>
     </div>
   )

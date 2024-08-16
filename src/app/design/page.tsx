@@ -1,6 +1,7 @@
 'use client'
 import { FooterDesign } from '@/components/FooterDesign'
-import { Plus, Printer, Trash2 } from 'lucide-react'
+import { RenderPdf } from '@/components/RenderPdf'
+import { Plus, Trash2 } from 'lucide-react'
 import { useState } from 'react'
 
 export default function Design() {
@@ -89,13 +90,7 @@ export default function Design() {
     <div>
       <div className="mx-auto flex max-w-[1000px] flex-col rounded-xl border bg-white p-2 text-black shadow-2xl laptop:max-w-[600px] ">
         <div className="flex justify-end">
-          <button
-            //   onClick={handlePushAddRoute}
-            className="flex items-center justify-between gap-2 rounded bg-green-600 px-4 py-2 text-lg font-medium text-white hover:bg-opacity-95 mobile:text-xs laptop:text-base"
-          >
-            <Printer size={20} />
-            <p>Imprimir</p>
-          </button>
+          <RenderPdf section={section} title={title} />
         </div>
         <div about="Titulo" className="flex justify-center py-1">
           <input
@@ -103,6 +98,7 @@ export default function Design() {
             type="text"
             value={title}
             onChange={handleTitleChange}
+            placeholder="Título"
           />
         </div>
         <div className="flex flex-col gap-5">
@@ -110,10 +106,11 @@ export default function Design() {
             <div key={sectionIndex} className="border border-zinc-400">
               <div className="bg-green-600">
                 <input
-                  className="w-full bg-transparent px-2 text-xl font-medium"
+                  className="w-full bg-transparent px-2 text-xl font-medium placeholder:text-zinc-900"
                   type="text"
                   value={sec.title || ''}
                   onChange={(e) => handleSectionTitleChange(sectionIndex, e)}
+                  placeholder="Título da seção"
                 />
               </div>
               {sec.description1.map((desc, descIndex) => {
@@ -126,7 +123,7 @@ export default function Design() {
                   >
                     <div className="col-span-5 text-sm">
                       <input
-                        className="w-full bg-transparent px-2 text-lg font-medium"
+                        className="w-full bg-transparent px-2 text-lg font-medium placeholder:text-zinc-700"
                         type="text"
                         value={desc.desc1 || ''}
                         onChange={(e) =>
@@ -137,11 +134,12 @@ export default function Design() {
                             e.target.value,
                           )
                         }
+                        placeholder="Medicamento"
                       />
                     </div>
                     <div className="col-span-6 flex border-l border-zinc-400 text-sm">
                       <input
-                        className="w-full bg-transparent px-2 text-lg font-medium"
+                        className="w-full bg-transparent px-2 text-lg font-medium placeholder:text-zinc-700"
                         type="text"
                         value={desc.desc2 || ''}
                         onChange={(e) =>
@@ -152,6 +150,7 @@ export default function Design() {
                             e.target.value,
                           )
                         }
+                        placeholder="Quantidade"
                       />
                     </div>
                     <div className="col-span-1 flex items-center justify-end px-3 text-sm">
@@ -179,12 +178,13 @@ export default function Design() {
               <div className="grid grid-cols-5 items-center bg-green-600 bg-opacity-25">
                 <div className="col-span-5 text-sm">
                   <input
-                    className="w-full bg-transparent px-2 py-1 text-lg font-medium"
+                    className="w-full bg-transparent px-2 py-1 text-lg font-medium placeholder:text-zinc-700"
                     type="text"
                     value={sec.description3 || ''}
                     onChange={(e) =>
                       handleSectionDescription3Change(sectionIndex, e)
                     }
+                    placeholder="Descrição"
                   />
                 </div>
               </div>

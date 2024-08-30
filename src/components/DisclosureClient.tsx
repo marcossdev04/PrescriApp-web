@@ -1,46 +1,46 @@
-"use client";
+'use client'
 
 import {
   Disclosure,
   DisclosurePanel,
   DisclosureButton,
-} from "@headlessui/react";
+} from '@headlessui/react'
 
-import Link from "next/link";
-import Image from "next/image";
+import Link from 'next/link'
+import Image from 'next/image'
 
 interface LinkProps {
-  text: string;
-  href: string;
-  external: boolean;
+  text: string
+  href: string
+  external: boolean
 }
 
 interface DisclosureClientProps {
   topnav: {
     logoLink: {
-      text: string;
-      href: string;
+      text: string
+      href: string
       image: {
-        url: string;
-        alternativeText: string | null;
-        name: string;
-      };
-    };
-    link: LinkProps[];
-    cta: LinkProps;
-  };
+        url: string
+        alternativeText: string | null
+        name: string
+      }
+    }
+    link: LinkProps[]
+    cta: LinkProps
+  }
 }
 
 export function DisclosureClient(props: Readonly<DisclosureClientProps>) {
-  const navigation = props.topnav.link;
-  const logo = props.topnav.logoLink;
-  const cta = props.topnav.cta;
+  const navigation = props.topnav.link
+  const logo = props.topnav.logoLink
+  const cta = props.topnav.cta
 
   return (
     <Disclosure>
       {({ open }) => (
-        <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
-          <Link href={logo.href || "/"}>
+        <div className="lg:w-auto flex w-full flex-wrap items-center justify-between">
+          <Link href={logo.href || '/'}>
             <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
               <span>
                 <Image
@@ -57,10 +57,10 @@ export function DisclosureClient(props: Readonly<DisclosureClientProps>) {
 
           <DisclosureButton
             aria-label="Toggle Menu"
-            className="px-2 py-1 ml-auto text-gray-500 rounded-md lg:hidden hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:text-gray-300 dark:focus:bg-trueGray-700"
+            className="lg:hidden ml-auto rounded-md px-2 py-1 text-gray-500 hover:text-indigo-500 focus:bg-indigo-100 focus:text-indigo-500 focus:outline-none dark:text-gray-300 dark:focus:bg-trueGray-700"
           >
             <svg
-              className="w-6 h-6 fill-current"
+              className="h-6 w-6 fill-current"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
             >
@@ -80,21 +80,21 @@ export function DisclosureClient(props: Readonly<DisclosureClientProps>) {
             </svg>
           </DisclosureButton>
 
-          <DisclosurePanel className="flex flex-wrap w-full my-5 lg:hidden">
+          <DisclosurePanel className="lg:hidden my-5 flex w-full flex-wrap">
             <>
               {navigation.map((item, index) => (
                 <Link
                   key={index}
                   href={item.href}
-                  className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none"
+                  className="-ml-4 w-full rounded-md px-4 py-2 text-gray-500 hover:text-indigo-500 focus:bg-indigo-100 focus:text-indigo-500 focus:outline-none dark:text-gray-300 dark:focus:bg-gray-800"
                 >
                   {item.text}
                 </Link>
               ))}
               <Link
                 href={cta.href}
-                target={cta.external ? "_blank" : "_self"}
-                className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5"
+                target={cta.external ? '_blank' : '_self'}
+                className="lg:ml-5 mt-3 w-full rounded-md bg-indigo-600 px-6 py-2 text-center text-white"
               >
                 {cta.text}
               </Link>
@@ -103,5 +103,5 @@ export function DisclosureClient(props: Readonly<DisclosureClientProps>) {
         </div>
       )}
     </Disclosure>
-  );
+  )
 }

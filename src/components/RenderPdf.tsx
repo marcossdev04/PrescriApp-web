@@ -10,6 +10,7 @@ import {
 } from '@react-pdf/renderer'
 import { Printer } from 'lucide-react'
 import watermarkImage from '../../public/img/PrescriAppLogo.png'
+import { useState, useEffect } from 'react'
 
 interface Props {
   section: {
@@ -21,6 +22,11 @@ interface Props {
 }
 
 export function RenderPdf({ section, title }: Props) {
+  const [isClient, setIsClient] = useState(false)
+
+  useEffect(() => {
+    setIsClient(true)
+  }, [])
   const watermarkImageUrl =
     typeof watermarkImage === 'string' ? watermarkImage : watermarkImage.src
 
@@ -31,6 +37,7 @@ export function RenderPdf({ section, title }: Props) {
       justifyContent: 'space-between',
       backgroundColor: '#FFFFFF',
       padding: 0,
+      position: 'relative',
     },
     watermark: {
       position: 'absolute',
@@ -39,12 +46,13 @@ export function RenderPdf({ section, title }: Props) {
       width: '100%',
       height: '100%',
       opacity: 0.4,
-      zIndex: 10,
+      zIndex: 100,
     },
     content: {
       flexGrow: 1,
       padding: '20px',
       display: 'flex',
+      zIndex: 2, // coloca o conteúdo acima do fundo da marca d'água
     },
     titleContent: {
       display: 'flex',
@@ -63,7 +71,7 @@ export function RenderPdf({ section, title }: Props) {
       borderColor: 'gray',
     },
     sectionTitle: {
-      backgroundColor: '#16a34a',
+      backgroundColor: '',
       paddingHorizontal: '10px',
       paddingVertical: '3px',
     },
@@ -74,12 +82,15 @@ export function RenderPdf({ section, title }: Props) {
     sectionMed: {
       display: 'flex',
       flexDirection: 'row',
-      backgroundColor: '#D1F7DF',
+      backgroundColor: '',
     },
     medSection: {
       width: '40%',
       paddingHorizontal: '10px',
       paddingVertical: '3px',
+      borderTopWidth: 1,
+      borderTopColor: 'gray',
+      borderLeftStyle: 'solid',
     },
     medText: {
       fontSize: '12px',
@@ -88,7 +99,9 @@ export function RenderPdf({ section, title }: Props) {
       width: '60%',
       borderLeftStyle: 'solid',
       borderLeftWidth: 1,
+      borderTopWidth: 1,
       borderLeftColor: 'gray',
+      borderTopColor: 'gray',
       paddingVertical: '3px',
     },
     qdtText: {
@@ -97,8 +110,11 @@ export function RenderPdf({ section, title }: Props) {
     },
     descriptionSection: {
       width: '100%',
+      borderTopWidth: 1,
+      borderLeftStyle: 'solid',
+      borderTopColor: 'gray',
       paddingVertical: '5px',
-      backgroundColor: '#C4E8D1',
+      backgroundColor: '',
     },
     descriptionText: {
       paddingHorizontal: '10px',
@@ -170,12 +186,12 @@ export function RenderPdf({ section, title }: Props) {
     </Document>
   )
 
-  return (
+  return isClient ? (
     <PDFDownloadLink document={<MyDocument />} fileName={`teste.pdf`}>
       <button className="flex items-center justify-between gap-2 rounded bg-green-600 px-4 py-2 text-lg font-medium text-white hover:bg-opacity-95 mobile:text-xs laptop:text-base">
         <Printer size={20} />
         <p>Imprimir</p>
       </button>
     </PDFDownloadLink>
-  )
+  ) : null
 }

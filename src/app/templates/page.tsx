@@ -1,4 +1,5 @@
-import { FileText, Search, SquarePen, Trash2 } from 'lucide-react'
+import { FileText, Search } from 'lucide-react'
+import Link from 'next/link'
 
 export default function Template() {
   return (
@@ -21,17 +22,36 @@ export default function Template() {
         </div>
       </div>
       <div className="flex flex-col">
-        <div className="flex justify-between p-3">
-          <div className="text-xl font-medium">Hepatite</div>
-          <div className="flex gap-2">
-            <button>
-              <SquarePen size={27} className="hover:text-green-500" />
-            </button>
-            <button>
-              <Trash2 size={27} className="hover:text-red-600" />
-            </button>
+        <Link href={'/model/alana'}>
+          <div className="flex justify-between border-b p-3">
+            <div className="text-xl font-medium">Alana</div>
           </div>
-        </div>
+        </Link>
+        <Link href={'/model/cristiane'}>
+          <div className="flex justify-between border-b p-3">
+            <div className="text-xl font-medium">Cristiane</div>
+          </div>
+        </Link>
+        <Link href={'/model/jacy'}>
+          <div className="flex justify-between border-b p-3">
+            <div className="text-xl font-medium">Jacy</div>
+          </div>
+        </Link>
+        <Link href={'/model/jose'}>
+          <div className="flex justify-between border-b p-3">
+            <div className="text-xl font-medium">José</div>
+          </div>
+        </Link>
+        <Link href={'/model/waldenice'}>
+          <div className="flex justify-between border-b p-3">
+            <div className="text-xl font-medium">Waldenice</div>
+          </div>
+        </Link>
+        <Link href={'/model/yana'}>
+          <div className="flex justify-between border-b p-3">
+            <div className="text-xl font-medium">Yana</div>
+          </div>
+        </Link>
       </div>
     </div>
   )

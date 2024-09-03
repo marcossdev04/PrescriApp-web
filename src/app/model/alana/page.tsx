@@ -1,6 +1,7 @@
 'use client'
 import { FooterDesign } from '@/components/FooterDesign'
 import { RenderPdf } from '@/components/RenderPdf'
+import { modelAlana } from '@/models/alana'
 import { Plus, Trash2 } from 'lucide-react'
 import { useState } from 'react'
 
@@ -16,13 +17,7 @@ export default function Design() {
       description1: { desc1: string | null; desc2: string | null }[]
       description3: string | null
     }[]
-  >([
-    {
-      title: null,
-      description1: [{ desc1: null, desc2: null }],
-      description3: null,
-    },
-  ])
+  >(modelAlana)
 
   const handleSectionTitleChange = (
     index: number,

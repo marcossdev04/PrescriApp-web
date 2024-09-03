@@ -37,28 +37,27 @@ export function RenderPdf({ section, title }: Props) {
       justifyContent: 'space-between',
       backgroundColor: '#FFFFFF',
       padding: 0,
-      position: 'relative',
+    },
+    header: {
+      width: '100%',
+      textAlign: 'center',
+      marginBottom: 0,
+      alignItems: 'center',
+      justifyContent: 'center',
     },
     watermark: {
-      position: 'absolute',
-      top: 0,
-      left: 0,
-      width: '100%',
-      height: '100%',
-      opacity: 0.4,
-      zIndex: 100,
+      width: '30%',
+      height: 'auto',
     },
     content: {
       flexGrow: 1,
       padding: '20px',
-      display: 'flex',
-      zIndex: 2, // coloca o conteúdo acima do fundo da marca d'água
     },
     titleContent: {
       display: 'flex',
       justifyContent: 'center',
       textAlign: 'center',
-      paddingVertical: '10px',
+      paddingVertical: '5px',
     },
     title: {
       fontSize: '20px',
@@ -71,7 +70,6 @@ export function RenderPdf({ section, title }: Props) {
       borderColor: 'gray',
     },
     sectionTitle: {
-      backgroundColor: '',
       paddingHorizontal: '10px',
       paddingVertical: '3px',
     },
@@ -82,7 +80,6 @@ export function RenderPdf({ section, title }: Props) {
     sectionMed: {
       display: 'flex',
       flexDirection: 'row',
-      backgroundColor: '',
     },
     medSection: {
       width: '40%',
@@ -114,7 +111,6 @@ export function RenderPdf({ section, title }: Props) {
       borderLeftStyle: 'solid',
       borderTopColor: 'gray',
       paddingVertical: '5px',
-      backgroundColor: '',
     },
     descriptionText: {
       paddingHorizontal: '10px',
@@ -139,11 +135,12 @@ export function RenderPdf({ section, title }: Props) {
       marginBottom: '5px',
     },
   })
-
   const MyDocument = () => (
     <Document>
       <Page size="A4" wrap style={styles.page}>
-        <Image fixed style={styles.watermark} src={watermarkImageUrl} />
+        <View style={styles.header}>
+          <Image style={styles.watermark} src={watermarkImageUrl} />
+        </View>
         <View style={styles.content}>
           <View style={styles.titleContent}>
             <Text style={styles.title}>{title}</Text>

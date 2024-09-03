@@ -1,24 +1,19 @@
-import { FileText, Search } from 'lucide-react'
+import { FileText } from 'lucide-react'
 import Link from 'next/link'
 
 export default function Template() {
   return (
-    <div className="mx-auto flex max-w-[600px] flex-col rounded-xl border bg-white bg-opacity-20 shadow-2xl ">
-      <div className="flex items-center justify-between border-b border-gray-600 p-3 ">
-        <div className="flex items-center gap-2 text-2xl font-medium">
+    <div className="mx-auto flex max-w-[600px] flex-col rounded-xl border bg-white bg-opacity-20 shadow-2xl mobile:mt-5 ">
+      <div className="flex items-center justify-center border-b border-gray-600 p-3 ">
+        <div className="flex items-center justify-center gap-2 text-2xl font-semibold mobile:text-3xl">
           <div>Modelos</div>
           <div>
-            <FileText size={30} />
+            <FileText className="mobile:hidden" size={30} />
+            <FileText
+              className="tablet:hidden laptop:hidden desktop:hidden"
+              size={25}
+            />
           </div>
-        </div>
-        <div className="flex items-center gap-2">
-          <input
-            className="border-primary focus:border-primary rounded-md border bg-white py-1 pl-2 text-lg text-black focus-visible:outline-none"
-            name="fullName"
-            id="fullName"
-            placeholder="Pesquisar"
-          />
-          <Search size={32} className="cursor-pointer" />
         </div>
       </div>
       <div className="flex flex-col">

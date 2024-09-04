@@ -87,7 +87,7 @@ export default function Design() {
 
   return (
     <div>
-      <div className="mx-auto flex max-w-[1000px] flex-col rounded-xl border bg-white p-2 text-black shadow-2xl mobile:mt-5 laptop:max-w-[600px] ">
+      <div className="mx-auto flex max-w-[1000px] flex-col rounded-xl border bg-white p-2 text-black shadow-2xl mobile:mt-5 laptop:max-w-[800px] ">
         <div className="flex justify-end">
           <RenderPdf section={section} title={title} />
         </div>

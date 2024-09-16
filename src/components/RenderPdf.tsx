@@ -184,7 +184,7 @@ export function RenderPdf({ section, title }: Props) {
   )
 
   return isClient ? (
-    <PDFDownloadLink document={<MyDocument />} fileName={`teste.pdf`}>
+    <PDFDownloadLink document={<MyDocument />} fileName={`${title}.pdf`}>
       <button className="flex items-center justify-between gap-2 rounded bg-green-600 px-4 py-2 text-lg font-medium text-white hover:bg-opacity-95 mobile:text-xs laptop:text-base">
         <Printer size={20} />
         <p>Imprimir</p>

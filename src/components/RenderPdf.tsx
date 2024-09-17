@@ -60,7 +60,7 @@ export function RenderPdf({ section, title }: Props) {
       paddingVertical: '5px',
     },
     title: {
-      fontSize: '20px',
+      fontSize: '16px',
       color: '#008000',
     },
     sectionItem: {
@@ -91,6 +91,9 @@ export function RenderPdf({ section, title }: Props) {
     },
     medText: {
       fontSize: '12px',
+    },
+    titleText: {
+      fontSize: '14px',
     },
     qtdSection: {
       width: '60%',
@@ -148,7 +151,7 @@ export function RenderPdf({ section, title }: Props) {
           {section.map((sec, index) => (
             <View style={styles.sectionItem} wrap={false} key={index}>
               <View style={styles.sectionTitle}>
-                <Text>{sec.title}</Text>
+                <Text style={styles.titleText}>{sec.title}</Text>
               </View>
               {sec.description1.map((desc1, index) => (
                 <View

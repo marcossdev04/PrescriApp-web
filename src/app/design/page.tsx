@@ -85,6 +85,10 @@ export default function Design() {
     setSection(newSection)
   }
 
+  const handleRemoveSection = (sectionIndex: number) => {
+    const newSection = section.filter((_, index) => index !== sectionIndex)
+    setSection(newSection)
+  }
   return (
     <div>
       <div className="mx-auto flex max-w-[1000px] flex-col rounded-xl border bg-white p-2 text-black shadow-2xl mobile:mt-5 laptop:max-w-[800px] ">
@@ -102,91 +106,104 @@ export default function Design() {
         </div>
         <div className="flex flex-col gap-5">
           {section.map((sec, sectionIndex) => (
-            <div key={sectionIndex} className="border border-zinc-400">
-              <div className="bg-green-600">
-                <input
-                  className="w-full bg-transparent px-2 text-xl font-medium placeholder:text-zinc-900"
-                  type="text"
-                  value={sec.title || ''}
-                  onChange={(e) => handleSectionTitleChange(sectionIndex, e)}
-                  placeholder="Título da seção"
-                />
-              </div>
-              {sec.description1.map((desc, descIndex) => {
-                const total = sec.description1.length
-                const count = descIndex + 1
-                return (
-                  <div
-                    key={descIndex}
-                    className={`grid grid-cols-12 items-center ${descIndex % 2 === 0 ? 'bg-green-400' : ''} bg-opacity-25`}
-                  >
-                    <div className="col-span-5 text-sm">
-                      <input
-                        className="w-full bg-transparent px-2 text-lg font-medium placeholder:text-zinc-700"
-                        type="text"
-                        value={desc.desc1 || ''}
-                        onChange={(e) =>
-                          handleDescription1Change(
-                            sectionIndex,
-                            descIndex,
-                            'desc1',
-                            e.target.value,
-                          )
-                        }
-                        placeholder="Medicamento"
-                      />
-                    </div>
-                    <div className="col-span-6 flex border-l border-zinc-400 text-sm">
-                      <input
-                        className="w-full bg-transparent px-2 text-lg font-medium placeholder:text-zinc-700"
-                        type="text"
-                        value={desc.desc2 || ''}
-                        onChange={(e) =>
-                          handleDescription1Change(
-                            sectionIndex,
-                            descIndex,
-                            'desc2',
-                            e.target.value,
-                          )
-                        }
-                        placeholder="Quantidade"
-                      />
-                    </div>
-                    <div className="col-span-1 flex items-center justify-end px-3 text-sm">
-                      <div className={`${total === count ? '' : 'hidden'}`}>
-                        <Plus
-                          size={27}
-                          className="cursor-pointer  hover:text-green-600"
-                          onClick={() => handleAddDescriptionItem(sectionIndex)}
-                        />
-                      </div>
-                      <div
-                        className={`${total === 1 && count === 1 ? 'hidden' : ''}`}
-                      >
-                        <Trash2
-                          className="cursor-pointer hover:text-red-600"
-                          onClick={() =>
-                            handleRemoveDescriptionItem(sectionIndex, descIndex)
-                          }
-                        />
-                      </div>
-                    </div>
-                  </div>
-                )
-              })}
-              <div className="grid grid-cols-5 items-center bg-green-600 bg-opacity-25">
-                <div className="col-span-5 text-sm">
+            <div
+              key={sectionIndex}
+              className="flex items-center justify-center gap-2"
+            >
+              <div className="w-full border border-zinc-400">
+                <div className="bg-green-600">
                   <input
-                    className="w-full bg-transparent px-2 py-1 text-lg font-medium placeholder:text-zinc-700"
+                    className="w-full bg-transparent px-2 text-xl font-medium placeholder:text-zinc-900"
                     type="text"
-                    value={sec.description3 || ''}
-                    onChange={(e) =>
-                      handleSectionDescription3Change(sectionIndex, e)
-                    }
-                    placeholder="Descrição"
+                    value={sec.title || ''}
+                    onChange={(e) => handleSectionTitleChange(sectionIndex, e)}
+                    placeholder="Título da seção"
                   />
                 </div>
+                {sec.description1.map((desc, descIndex) => {
+                  const total = sec.description1.length
+                  const count = descIndex + 1
+                  return (
+                    <div
+                      key={descIndex}
+                      className={`grid grid-cols-12 items-center ${descIndex % 2 === 0 ? 'bg-green-400' : ''} bg-opacity-25`}
+                    >
+                      <div className="col-span-5 text-sm">
+                        <input
+                          className="w-full bg-transparent px-2 text-lg font-medium placeholder:text-zinc-700"
+                          type="text"
+                          value={desc.desc1 || ''}
+                          onChange={(e) =>
+                            handleDescription1Change(
+                              sectionIndex,
+                              descIndex,
+                              'desc1',
+                              e.target.value,
+                            )
+                          }
+                          placeholder="Medicamento"
+                        />
+                      </div>
+                      <div className="col-span-6 flex border-l border-zinc-400 text-sm">
+                        <input
+                          className="w-full bg-transparent px-2 text-lg font-medium placeholder:text-zinc-700"
+                          type="text"
+                          value={desc.desc2 || ''}
+                          onChange={(e) =>
+                            handleDescription1Change(
+                              sectionIndex,
+                              descIndex,
+                              'desc2',
+                              e.target.value,
+                            )
+                          }
+                          placeholder="Quantidade"
+                        />
+                      </div>
+                      <div className="col-span-1 flex items-center justify-end px-3 text-sm">
+                        <div className={`${total === count ? '' : 'hidden'}`}>
+                          <Plus
+                            size={27}
+                            className="cursor-pointer  hover:text-green-600"
+                            onClick={() =>
+                              handleAddDescriptionItem(sectionIndex)
+                            }
+                          />
+                        </div>
+                        <div
+                          className={`${total === 1 && count === 1 ? 'hidden' : ''}`}
+                        >
+                          <Trash2
+                            className="cursor-pointer hover:text-red-600"
+                            onClick={() =>
+                              handleRemoveDescriptionItem(
+                                sectionIndex,
+                                descIndex,
+                              )
+                            }
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  )
+                })}
+                <div className="grid grid-cols-5 items-center bg-green-600 bg-opacity-25">
+                  <div className="col-span-5 text-sm">
+                    <input
+                      className="w-full bg-transparent px-2 py-1 text-lg font-medium placeholder:text-zinc-700"
+                      type="text"
+                      value={sec.description3 || ''}
+                      onChange={(e) =>
+                        handleSectionDescription3Change(sectionIndex, e)
+                      }
+                      placeholder="Descrição"
+                    />
+                  </div>
+                </div>
               </div>
+              <button onClick={() => handleRemoveSection(sectionIndex)}>
+                <Trash2 />
+              </button>
             </div>
           ))}
           <button

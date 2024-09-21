@@ -1,11 +1,48 @@
 'use client'
 import { FooterDesign } from '@/components/FooterDesign'
 import { RenderPdf } from '@/components/RenderPdf'
-import { modelCristiane } from '@/models/cristiane'
 import { Plus, Trash2 } from 'lucide-react'
 import { useState } from 'react'
+import data from '@/json/models.json'
 
-export default function Design() {
+interface Props {
+  params: { id: string }
+}
+export default function Model({ params }: Props) {
+  const selectedData =
+    params.id === '0'
+      ? data[
+          'Vit. D, Vit B12, estrias, acne, desinflamar fígado e reduzir ferritina'
+        ]
+      : params.id === '1'
+        ? data[
+            'Glutamina, creatina,  ferritina e zinco baixos, B12 e ácido fólico'
+          ]
+        : params.id === '2'
+          ? data['Tireóide e desinflamar fígado e reduzir ferritina']
+          : params.id === '3'
+            ? data['Manipulado de colágeno pra pele']
+            : params.id === '4'
+              ? data[
+                  'Osteoporose, Magnésio e probiótico Dermman Biotic ( dermatite atópica)'
+                ]
+              : params.id === '5'
+                ? data[
+                    'Vit D, ácido fólico e B12, enzimas digestivas, ferritina e zinco baixos e magnésio'
+                  ]
+                : params.id === '6'
+                  ? data['Manipulados pra menopausa']
+                  : params.id === '7'
+                    ? data['Manipulado pro emagrecimento CLOCK e berberina']
+                    : [
+                        {
+                          title: null,
+                          description1: [{ desc1: null, desc2: null }],
+                          description3: null,
+                        },
+                      ]
+
+  console.log(selectedData)
   const [title, setTitle] = useState<string>('')
 
   const handleTitleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -17,7 +54,7 @@ export default function Design() {
       description1: { desc1: string | null; desc2: string | null }[]
       description3: string | null
     }[]
-  >(modelCristiane)
+  >(selectedData)
 
   const handleSectionTitleChange = (
     index: number,

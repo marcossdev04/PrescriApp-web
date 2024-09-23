@@ -177,9 +177,9 @@ export function RenderPdf({ section, title }: Props) {
         <View style={styles.footerContent}>
           <View wrap={false} style={styles.footer}>
             <Text style={styles.draCrn}>
-              DRA. Teresa Cristina B. Silva - CRN 11 2830
+              Teresa Cristina B. Silva - CRN 11 2830
             </Text>
-            <Text>NUTRICIONISTA CLÍNICA</Text>
+            <Text>Nutricionista Esp. Clínica</Text>
           </View>
         </View>
       </Page>

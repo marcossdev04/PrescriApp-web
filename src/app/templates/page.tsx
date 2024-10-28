@@ -71,6 +71,20 @@ export default function Template() {
             </div>
           </div>
         </Link>
+        <Link href={'/model/8'}>
+          <div className="flex justify-between border-b p-3">
+            <div className="text-xl font-medium">
+              Deficiencia de vitaminas e minerais para crianças
+            </div>
+          </div>
+        </Link>
+        <Link href={'/model/9'}>
+          <div className="flex justify-between border-b p-3">
+            <div className="text-xl font-medium">
+              Tendogen, Curcuma e Magnésio
+            </div>
+          </div>
+        </Link>
       </div>
     </div>
   )

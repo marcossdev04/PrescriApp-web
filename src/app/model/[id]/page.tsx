@@ -34,13 +34,19 @@ export default function Model({ params }: Props) {
                   ? data['Manipulados pra menopausa']
                   : params.id === '7'
                     ? data['Manipulado pro emagrecimento CLOCK e berberina']
-                    : [
-                        {
-                          title: null,
-                          description1: [{ desc1: null, desc2: null }],
-                          description3: null,
-                        },
-                      ]
+                    : params.id === '8'
+                      ? data[
+                          'Deficiencia de vitaminas e minerais para crianças'
+                        ]
+                      : params.id === '9'
+                        ? data['Tendogen, Curcuma e Magnésio']
+                        : [
+                            {
+                              title: null,
+                              description1: [{ desc1: null, desc2: null }],
+                              description3: null,
+                            },
+                          ]
 
   console.log(selectedData)
   const [title, setTitle] = useState<string>('')

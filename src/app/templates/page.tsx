@@ -85,6 +85,11 @@ export default function Template() {
             </div>
           </div>
         </Link>
+        <Link href={'/model/10'}>
+          <div className="flex justify-between border-b p-3">
+            <div className="text-xl font-medium">Novo Modelo</div>
+          </div>
+        </Link>
       </div>
     </div>
   )

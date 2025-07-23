@@ -40,13 +40,15 @@ export default function Model({ params }: Props) {
                         ]
                       : params.id === '9'
                         ? data['Tendogen, Curcuma e Magnésio']
-                        : [
-                            {
-                              title: null,
-                              description1: [{ desc1: null, desc2: null }],
-                              description3: null,
-                            },
-                          ]
+                        : params.id === '10'
+                          ? data['Novo modelo']
+                          : [
+                              {
+                                title: null,
+                                description1: [{ desc1: null, desc2: null }],
+                                description3: null,
+                              },
+                            ]
 
   console.log(selectedData)
   const [title, setTitle] = useState<string>('')

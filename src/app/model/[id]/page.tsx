@@ -11,44 +11,14 @@ interface Props {
 export default function Model({ params }: Props) {
   const selectedData =
     params.id === '0'
-      ? data[
-          'Vit. D, Vit B12, estrias, acne, desinflamar fígado e reduzir ferritina'
+      ? data['Prescrições Teresa Cristina']
+      : [
+          {
+            title: null,
+            description1: [{ desc1: null, desc2: null }],
+            description3: null,
+          },
         ]
-      : params.id === '1'
-        ? data[
-            'Glutamina, creatina,  ferritina e zinco baixos, B12 e ácido fólico'
-          ]
-        : params.id === '2'
-          ? data['Tireóide e desinflamar fígado e reduzir ferritina']
-          : params.id === '3'
-            ? data['Manipulado de colágeno pra pele']
-            : params.id === '4'
-              ? data[
-                  'Osteoporose, Magnésio e probiótico Dermman Biotic ( dermatite atópica)'
-                ]
-              : params.id === '5'
-                ? data[
-                    'Vit D, ácido fólico e B12, enzimas digestivas, ferritina e zinco baixos e magnésio'
-                  ]
-                : params.id === '6'
-                  ? data['Manipulados pra menopausa']
-                  : params.id === '7'
-                    ? data['Manipulado pro emagrecimento CLOCK e berberina']
-                    : params.id === '8'
-                      ? data[
-                          'Deficiencia de vitaminas e minerais para crianças'
-                        ]
-                      : params.id === '9'
-                        ? data['Tendogen, Curcuma e Magnésio']
-                        : params.id === '10'
-                          ? data['Novo modelo']
-                          : [
-                              {
-                                title: null,
-                                description1: [{ desc1: null, desc2: null }],
-                                description3: null,
-                              },
-                            ]
 
   console.log(selectedData)
   const [title, setTitle] = useState<string>('')

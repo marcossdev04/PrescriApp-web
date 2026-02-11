@@ -9,12 +9,9 @@ interface Props {
   params: { id: string }
 }
 export default function Model({ params }: Props) {
-  const allData = data['Prescrições Teresa Cristina']
-  const index = parseInt(params.id)
-
   const selectedData =
-    index >= 0 && index < allData.length
-      ? [allData[index]]
+    params.id === '0'
+      ? data['Prescrições Teresa Cristina']
       : [
           {
             title: null,
@@ -23,7 +20,6 @@ export default function Model({ params }: Props) {
           },
         ]
 
-  console.log(selectedData)
   const [title, setTitle] = useState<string>('')
 
   const handleTitleChange = (event: React.ChangeEvent<HTMLInputElement>) => {

@@ -9,9 +9,12 @@ interface Props {
   params: { id: string }
 }
 export default function Model({ params }: Props) {
+  const allData = data['Prescrições Teresa Cristina']
+  const index = parseInt(params.id)
+
   const selectedData =
-    params.id === '0'
-      ? data['Prescrições Teresa Cristina']
+    index >= 0 && index < allData.length
+      ? [allData[index]]
       : [
           {
             title: null,

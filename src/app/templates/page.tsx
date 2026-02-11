@@ -20,74 +20,8 @@ export default function Template() {
         <Link href={`/model/0`}>
           <div className="flex justify-between border-b p-3">
             <div className="text-xl font-medium">
-              Vit. D, Vit B12, estrias, acne, desinflamar fígado e reduzir
-              ferritina
+              Prescrições Teresa Cristina
             </div>
-          </div>
-        </Link>
-        <Link href={'/model/1'}>
-          <div className="flex justify-between border-b p-3">
-            <div className="text-xl font-medium">
-              Glutamina, creatina, ferritina e zinco baixos, B12 e ácido fólico
-            </div>
-          </div>
-        </Link>
-        <Link href={'/model/2'}>
-          <div className="flex justify-between border-b p-3">
-            <div className="text-xl font-medium">
-              Tireóide e desinflamar fígado e reduzir ferritina
-            </div>
-          </div>
-        </Link>
-        <Link href={'/model/3'}>
-          <div className="flex justify-between border-b p-3">
-            <div className="text-xl font-medium">
-              Manipulado de colágeno para pele
-            </div>
-          </div>
-        </Link>
-        <Link href={'/model/4'}>
-          <div className="flex justify-between border-b p-3">
-            <div className="text-xl font-medium">Osteoporose</div>
-          </div>
-        </Link>
-        <Link href={'/model/5'}>
-          <div className="flex justify-between border-b p-3">
-            <div className="text-xl font-medium">
-              Vit D, ácido fólico e B12, enzimas digestivas, ferritina e zinco
-              baixos e magnésio
-            </div>
-          </div>
-        </Link>
-        <Link href={'/model/6'}>
-          <div className="flex justify-between border-b p-3">
-            <div className="text-xl font-medium">Manipulados pra menopausa</div>
-          </div>
-        </Link>
-        <Link href={'/model/7'}>
-          <div className="flex justify-between border-b p-3">
-            <div className="text-xl font-medium">
-              Manipulado pro emagrecimento CLOCK e berberina
-            </div>
-          </div>
-        </Link>
-        <Link href={'/model/8'}>
-          <div className="flex justify-between border-b p-3">
-            <div className="text-xl font-medium">
-              Deficiencia de vitaminas e minerais para crianças
-            </div>
-          </div>
-        </Link>
-        <Link href={'/model/9'}>
-          <div className="flex justify-between border-b p-3">
-            <div className="text-xl font-medium">
-              Tendogen, Curcuma e Magnésio
-            </div>
-          </div>
-        </Link>
-        <Link href={'/model/10'}>
-          <div className="flex justify-between border-b p-3">
-            <div className="text-xl font-medium">Novo Modelo</div>
           </div>
         </Link>
       </div>

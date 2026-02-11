@@ -1,438 +1,184 @@
 {
-    "Vit. D, Vit B12, estrias, acne, desinflamar fígado e reduzir ferritina": [
-      {
-        "title": " Manipulado para deficiência de Vitaminas",
-          "description1": [
-            { "desc1": "Vitamina D3", "desc2": "10000 UI" },
-            { "desc1": "Vitamina A ", "desc2": "6000 UI" },
-            { "desc1": "Vitamina C", "desc2": " 500 mg" },
-            { "desc1": "Vitamina K2Mk7", "desc2": "150 mcg" }
-          ],
-          "description3": "Quantidade: 60 cápsulas.  Tomar 01 cápsula/dia após o almoço"
-      },
-      {
-        "title": "Manipulado para deficiência de Vitamina B12",
-          "description1": 
-          [
-            { "desc1": "Metilcobalamina", "desc2": "1000mcg" }
-          ],
-            "description3": " Quantidade: 60 cápsulas.  Tomar 01 cápsula/dia à noite (sublingual)"
-      },
-      {
-        "title": "Manipulado para Prevenção de Estrias",
-          "description1": 
-          [
-            { "desc1": "Exsynutriment", "desc2": " 200 mg" },
-            { "desc1": "Palmitato de Ascorbila", "desc2": "100 mg" },
-            { "desc1": "Ácido Hialurônico", "desc2": "200 mg" }
-          ],
-            "description3": "Quantidade: 60 cápsulas. Tomar 01 cápsula/dia após o almoço"
-      },
-      {
-        "title": " Manipulado para Desinflamação do organismo (fígado) e Redução da Ferritina",
-          "description1": 
-          [
-            { "desc1": "N acetilcisteina", "desc2": "300 mg" },
-            { "desc1": "Natoquinase", "desc2": "150 mg " },
-            { "desc1": "Ácido Lipoico", "desc2": "200 mg" }
-          ],
-            "description3": "Quantidade: 60 cápsulas. Tomar 01 cápsula/dia após o café da manhã"
-      },
-      {
-        "title": "Manipulado para Acne",
-          "description1": 
-          [
-            { "desc1": "Tumerina Zen", "desc2": "2%" },
-            { "desc1": "Quora Noni", "desc2": "0,5%" },
-            { "desc1": "Ácido Lipoico", "desc2": "200 mg" }
-          ],
-            "description3": "Quantidade: 15ml. Aplicar na face duas vezes ao dia"
-      }
-    ],
-    "Glutamina, creatina,  ferritina e zinco baixos, B12 e ácido fólico": [
-      {
-        "title": "Manipulado para deficiência de Vitaminas ",
-          "description1": [
-            { "desc1": "Vitamina D3", "desc2": "10000 UI" },
-            { "desc1": "Vitamina A ", "desc2": "6000 UI" },
-            { "desc1": "Vitamina C", "desc2": " 500 mg" },
-            { "desc1": "Vitamina K2Mk7", "desc2": "150 mcg" },
-            { "desc1": "Metilfolato", "desc2": "300 mcg" }
-            
-          ],
-          "description3": "Quantidade: 60 cápsulas vegetais, isentas de lactose. Tomar 01 cápsula/dia após o almoço "
-      },
-      {
-        "title": "Manipulado para Deficiência de Ferritina e Zinco",
-          "description1": [
-            { "desc1": "Ferro Quelato", "desc2": "40 mg" },
-            { "desc1": "Zinco Quelato ", "desc2": "20 mg" },
-            { "desc1": "Vitamina C", "desc2": "500 mg" }
-          ],
-            "description3": "Quantidade: 60 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia após o café da manhã"
-      },
-      {
-        "title": "Manipulado para Deficiência de Ácido Fólico e Vitamina B12",
-          "description1": 
-          [
-            { "desc1": "Metilfolato ", "desc2": "300 mcg" },
-            { "desc1": "Metilcobalamina ", "desc2": "1000 mcg" }
-          ],
-            "description3": "Quantidade: 60 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia após o café da manhã "
-      },
-      {
-        "title": "Manipulado de Creatina",
-          "description1": 
-          [
-            { "desc1": "Creatina 100% pura", "desc2": "150g" }
-          ],
-            "description3": "Pote com col/medida 5g, dissolver em 200ml de água ou na vitamina"
-      },
-      {
-        "title": "Manipulado de Glutamina",
-          "description1": 
-          [
-            { "desc1": "Glutamina 100% pura", "desc2": "150g" }
-          ],
-            "description3": "Pote com col/medida 5g, dissolver em 200ml de água ou na vitamina"
-      }
-    ],
-    "Tireóide e desinflamar fígado e reduzir ferritina":[
-      {
-        "title": "Manipulado para deficiência de Vitaminas ",
-          "description1": [
-            { "desc1": "Zinco Quelato", "desc2": "20 mg" },
-            { "desc1": "Ferro Quelato ", "desc2": "40 mg " },
-            { "desc1": "Vitamina C ", "desc2": "500 mg" },
-            { "desc1": "Cobre", "desc2": "40 mcg " },
-            { "desc1": "L - Tirosina ", "desc2": "100 mg " },
-            { "desc1": "Metilfolato", "desc2": "300 mcg" }
-            
-          ],
-          "description3": "Quantidade: 60 cápsulas. Tomar 01 cápsula/dia após o café da manhã "
-      },
-      {
-        "title": "Manipulado para Desinflamação do organismo (fígado) e Redução da Ferritina ",
-          "description1": [
-            { "desc1": "N acetilcisteina  ", "desc2": "300 mg" },
-            { "desc1": "Natoquinase", "desc2": "150 mg" },
-            { "desc1": "Ácido Lipoico ", "desc2": "200 mg" }
-          ],
-            "description3": "Quantidade: 30 cápsulas. Tomar 01 cápsula/dia após o café da manhã"
-      }
-    ]
-    ,
-    "Manipulado de colágeno pra pele":[
-      {
-        "title": "Manipulado para deficiência de Vitaminas ",
-          "description1": [
-            { "desc1": "Vitamina D3 ", "desc2": "10000 UI" },
-            { "desc1": "Vitamina A ", "desc2": "600 UI" },
-            { "desc1": "Vitamina C  ", "desc2": "500 mg " },
-            { "desc1": "Vitamina K2 MK7", "desc2": "150 mcg " },
-            { "desc1": "Metilfolato  ", "desc2": "300 mcg" }
-            
-          ],
-          "description3": "Quantidade: 60 cápsulas. Tomar 01 cápsula/dia após o almoço"
-      },
-      {
-        "title": "Manipulado para Desinflamação do organismo (fígado) e Redução da Ferritina",
-          "description1": [
-            { "desc1": "N acetilcisteina  ", "desc2": "300 mg" },
-            { "desc1": "Natoquinase", "desc2": "150 mg" },
-            { "desc1": "Ácido Lipoico ", "desc2": "200 mg" }
-          ],
-            "description3": "Quantidade: 60 cápsulas. Tomar 01 cápsula/dia após o café da manhã"
-      },
-      {
-        "title": "Manipulado para Redução da Glicemia e Resistência à Insulina ",
-          "description1": [
-            { "desc1": "Berberina", "desc2": "200 mg" },
-            { "desc1": "5 HTP ", "desc2": "60 mg" },
-            { "desc1": "L – tripitofano ", "desc2": "80 mg" },
-            { "desc1": "L – theanina ", "desc2": "60 mg " },
-            { "desc1": "L – Taurina  ", "desc2": "100 mg" },
-            { "desc1": "Pholia Magra  ", "desc2": "200 mg " },
-            { "desc1": "Faseolamina ", "desc2": "150 mg " }
-          ],
-            "description3": "Quantidade: 60 cápsulas. Tomar 01 cápsula às 16h "
-      },
-      {
-        "title": "Manipulado de Colágeno  ",
-          "description1": [
-            { "desc1": "Ácido Hialurônico  ", "desc2": "120 mg" },
-            { "desc1": "Verisol ", "desc2": "2,5 g " },
-            { "desc1": "Vitamina E ", "desc2": "10 mg" },
-            { "desc1": "Resveratrol ", "desc2": "200 mg" }
-          ],
-            "description3": "Quantidade:  300g. Pote com col/medida (5g). Dissolver 5g em 200ml de água"
-      }
-    ],
-    "Osteoporose, Magnésio e probiótico Dermman Biotic ( dermatite atópica)":[
-      {
-        "title": "Manipulado para Osteoporose, Osteomalácia, Osteopenia ",
-          "description1": [
-            { "desc1": "Cálcio Citrato", "desc2": "500 mg" },
-            { "desc1": "Magnésio Quelato", "desc2": "200 mg " },
-            { "desc1": "Boro Quelato ", "desc2": "2,5 mg " },
-            { "desc1": "Manganês Quelato ", "desc2": "2 mg" }
-            
-          ],
-          "description3": "Quantidade: 60 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia após o café"
-      },
-      {
-        "title": "Manipulado para Deficiência de Vitamina B12 e Ácido Fólico",
-          "description1": [
-            { "desc1": "Metilcobalamina", "desc2": "1000 mcg" },
-            { "desc1": "Metilfolato ", "desc2": "300 mcg " }
-          ],
-            "description3": "Quantidade: 60 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia à noite (sublingual)"
-      },
-      {
-        "title": "Manipulado para deficiência de Vitaminas  ",
-          "description1": [
-            { "desc1": "Vitamina D3 ", "desc2": "10000 UI " },
-            { "desc1": "Vitamina A ", "desc2": "600 UI " },
-            { "desc1": "Vitamina C ", "desc2": "500 mg " },
-            { "desc1": "Vitamina K2 MK7 ", "desc2": "150 mcg" }
-          ],
-            "description3": "Quantidade: 60 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia após o almoço"
-      },
-      {
-        "title": "Probiótico para Deficiência de Ferritina e Zinco ",
-          "description1": [
-            { "desc1": "Ferro Quelato ", "desc2": "40 mg" },
-            { "desc1": "Zinco Quelato ", "desc2": "2 mg " },
-            { "desc1": "Vitamina C", "desc2": "500 mg " }
-          ],
-            "description3": "Quantidade: 60 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia após o café da manhã"
-      },
-      {
-        "title": "Enzimas Digestivas ",
-          "description1": [
-            { "desc1": "Protease", "desc2": "50 mg " },
-            { "desc1": "Papaina ", "desc2": "100 mg  " },
-            { "desc1": "Lactase", "desc2": "30 mg " },
-            { "desc1": "Amilase", "desc2": "40 mg" },
-            { "desc1": "Lipase  ", "desc2": "40 mg " },
-            { "desc1": "Sais Biliares", "desc2": "50 mg " },
-            { "desc1": "Pepsina ", "desc2": "25 mg" },
-            { "desc1": "Bromelina", "desc2": "50 mg" }
-          ],
-            "description3": "Quantidade: 60 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia 15 min antes do almoço e 15 min antes do jantar"
-      }
-    ],
-    "Vit D, ácido fólico e B12, enzimas digestivas, ferritina e zinco baixos e magnésio":[
-      {
-        "title": "Pool de Magnésio ",
-          "description1": [
-            { "desc1": "Magnésio Treonato ", "desc2": "350 mg " },
-            { "desc1": "Magnésio Quelato ", "desc2": "250 mg" },
-            { "desc1": "Magnésio Inositol ", "desc2": "200 mg" }
-            
-          ],
-          "description3": "Quantidade: 60 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia à noite"
-      },
-      {
-        "title": "Manipulado para Deficiência de Vitamina B12 e Ácido Fólico",
-          "description1": [
-            { "desc1": "Metilcobalamina", "desc2": "1000 mcg" },
-            { "desc1": "Metilfolato ", "desc2": "300 mcg " }
-          ],
-            "description3": "Quantidade: 60 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia à noite (sublingual)"
-      },
-      {
-        "title": "Manipulado para deficiência de Vitaminas  ",
-          "description1": [
-            { "desc1": "Vitamina D3 ", "desc2": "10000 UI " },
-            { "desc1": "Vitamina A ", "desc2": "600 UI " },
-            { "desc1": "Vitamina C ", "desc2": "500 mg " },
-            { "desc1": "Vitamina K2 MK7 ", "desc2": "150 mcg" }
-          ],
-            "description3": "Quantidade: 60 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia após o almoço"
-      },
-      {
-        "title": "Probiótico para Deficiência de Ferritina e Zinco ",
-          "description1": [
-            { "desc1": "Ferro Quelato ", "desc2": "40 mg" },
-            { "desc1": "Zinco Quelato ", "desc2": "2 mg " }
-          ],
-            "description3": "Quantidade: 60 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia após o café da manhã"
-      },
-      {
-        "title": "Enzimas Digestivas ",
-          "description1": [
-            { "desc1": "Protease", "desc2": "50 mg " },
-            { "desc1": "Papaina ", "desc2": "100 mg  " },
-            { "desc1": "Lactase", "desc2": "30 mg " },
-            { "desc1": "Amilase", "desc2": "40 mg" },
-            { "desc1": "Lipase  ", "desc2": "40 mg " },
-            { "desc1": "Sais Biliares", "desc2": "50 mg " },
-            { "desc1": "Pepsina ", "desc2": "25 mg" },
-            { "desc1": "Bromelina", "desc2": "50 mg" }
-          ],
-            "description3": "Quantidade: 60 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia 15 min antes do almoço e 15 min antes do jantar"
-      }
-    ],
-    "Manipulados pra menopausa":[
-      {
-        "title": "Manipulado para deficiência de Vitaminas",
-          "description1": [
-            { "desc1": "Vitamina D3", "desc2": "10000 UI" },
-            { "desc1": "Vitamina A ", "desc2": "6000 UI " },
-            { "desc1": "Vitamina C ", "desc2": "500 mg" },
-            { "desc1": "Vitamina K2 MK7 ", "desc2": "150 mcg " },
-            { "desc1": "Zinco Quelato ", "desc2": "15 mg " }
-          ],
-          "description3": "Quantidade: 60 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia após o almoço "
-      },
-      {
-        "title": "Manipulado para Menorpausa - Antioxidantes",
-          "description1": [
-            { "desc1": "Isoflavona ", "desc2": "60 mg" },
-            { "desc1": "Resveratrol ", "desc2": "200 mg" },
-            { "desc1": "Amora ", "desc2": "500 mg" },
-            { "desc1": "PQQ ", "desc2": "20 mg " }
-          ],
-            "description3": "Quantidade: 60 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia, 15 min antes do almoço e 15 min antes do jantar "
-      },
-      {
-        "title": "Manipulado para Redução da Glicemia e Resistência à Insulina",
-          "description1": [
-            { "desc1": "Berberina", "desc2": "200 mg " },
-            { "desc1": "5 HTP", "desc2": "60 mg " },
-            { "desc1": "L – tripitofano", "desc2": "80 mg " },
-            { "desc1": "L – theanina ", "desc2": "60 mg " },
-            { "desc1": "L – Taurina ", "desc2": "100 mg " },
-            { "desc1": "Pholia Magra", "desc2": "200 mg " },
-            { "desc1": "Faseolamina", "desc2": "150 mg" }
-          ],
-            "description3": "Quantidade: 60 cápsulas vegetais isentas de lactose. Tomar 01 cápsula às 16h"
-      },
-      {
-        "title": "Manipulado para Desinflamação do organismo (fígado) e Redução da Ferritina  ",
-          "description1": [
-            { "desc1": "N acetilcisteina  ", "desc2": "300 mg" },
-            { "desc1": "Natoquinase ", "desc2": "150 mg" },
-            { "desc1": "Ácido Lipoico", "desc2": "200 mg " }
-          ],
-            "description3": "Quantidade: 30 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia após o café da manhã "
-      }
-    ],
-    "Manipulado pro emagrecimento CLOCK e berberina":[
-      {
-        "title": "Manipulado para perda de peso",
-          "description1": [
-            { "desc1": "Clock ", "desc2": "400 mg" }
-          ],
-          "description3": "Quantidade: 30 cápsulas vegetais isentas de lactose. Tomar 01 cápsula ao dormir "
-      },
-      {
-        "title": "Manipulado para Redução da Glicemia e Resistência à Insulina ",
-          "description1": [
-            { "desc1": "Berberina", "desc2": "200 mg" },
-            { "desc1": "5 HTP ", "desc2": "60 mg" },
-            { "desc1": "L – tripitofano ", "desc2": "80 mg" },
-            { "desc1": "L – theanina ", "desc2": "60 mg " },
-            { "desc1": "L – Taurina  ", "desc2": "100 mg" },
-            { "desc1": "Pholia Magra  ", "desc2": "200 mg " },
-            { "desc1": "Faseolamina ", "desc2": "150 mg " }
-          ],
-            "description3": "Quantidade: 60 cápsulas. Tomar 01 cápsula às 16h "
-      }
-    ],
-    "Deficiencia de vitaminas e minerais para crianças":[
-      {
-        "title":"Manipulado para deficiência de Vitamina e Minerais para Criança",
-        "description1":[
-          {"desc1":"Metilcobalamina","desc2":"500 mcg"},
-          {"desc1":"Zinco Quelato","desc2":"15 mg"},
-          {"desc1":"Vitamina C","desc2":"300 mg"},
-          {"desc1":"Vitamina D3","desc2":"5000 UI"},
-          {"desc1":"Vitamina K2MK7","desc2":"120 mcg"}
-        ],
-        "description3":"Solução 5ml/dia após o almoço"
-      }
-    ],
-    "Tendogen, Curcuma e Magnésio":[
-      {
-      "title":"Manipulado para Desinflamação",
-      "description1":[
-        {"desc1":"Cúrcuma Longa","desc2":"500 mg"},
-        {"desc1":"Piperina","desc2":"10 mg"}
-        
+  "Prescrições Teresa Cristina": [
+    {
+      "title": "Manipulado para deficiência de Vitaminas",
+      "description1": [
+        { "desc1": "Vitamina D3 Lipofílica", "desc2": "5000 UI" },
+        { "desc1": "Vitamina A Lipofílica", "desc2": "600 UI" },
+        { "desc1": "Vitamina K2Mk7", "desc2": "150 mcg" },
+        { "desc1": "Vitamina E (mix de tecoferois)", "desc2": "500 UI" }
       ],
-    "description3":"Quantidade: 30 cápsulas. Tomar 01 cápsula/dia após o café da manhã"
+      "description3": "Excipiente Lipofílico (TCM ou óleo de coco) q.s.p. Quantidade: 30 cápsulas. Tomar 01 cápsula/dia após o almoço"
     },
     {
-      "title":"Manipulado para Dores nas Articulações",
-      "description1":[
-        {"desc1":"Tendogen","desc2":"200 mg"},
-        {"desc1":"Piperina","desc2":"10 mg"}
-        
+      "title": "Manipulado para deficiência de Vitamina B12, B6 e Ácido Fólico",
+      "description1": [
+        { "desc1": "Metilcobalamina", "desc2": "1000mcg" },
+        { "desc1": "Metilfolato", "desc2": "300mcg" },
+        { "desc1": "Piridoxal - 5 fosfato", "desc2": "30mg" }
       ],
-    "description3":"Quantidade: 30 cápsulas. Tomar 01 cápsula/dia após o almoço"
+      "description3": "Quantidade: 30 doses - gotas sublinguais/dia. Tomar 01 dose antes do café da manhã"
     },
     {
-      "title":"Pool de Magnésio",
-      "description1":[
-        {"desc1":"Magnésio Treonato","desc2":"350 mg"},
-        {"desc1":"Magnésio Quelato","desc2":"250 mg"},
-        {"desc1":"Magnésio Dilamato","desc2":"250 mg"}
-        
+      "title": "Manipulado para deficiência de Minerais e Vitaminas",
+      "description1": [
+        { "desc1": "Zinco Quelato", "desc2": "20 mg" },
+        { "desc1": "Selênio Quelato", "desc2": "50 mcg" },
+        { "desc1": "Vitamina B2", "desc2": "20 mg" },
+        { "desc1": "Vitamina B3", "desc2": "20 mg" },
+        { "desc1": "Vitamina C", "desc2": "500 mg" },
+        { "desc1": "PQQ", "desc2": "30 mg" },
+        { "desc1": "Ferro Quelato", "desc2": "50 mg" }
       ],
-    "description3":"Quantidade: 30 cápsulas Tomar 01 cápsula/dia à noite"
+      "description3": "Quantidade: 30 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia após o almoço"
+    },
+    {
+      "title": "Manipulado para Reduzir Glicemia e Insulina",
+      "description1": [
+        { "desc1": "Berberina", "desc2": "300 mg" },
+        { "desc1": "Red Yeast", "desc2": "200 mg" },
+        { "desc1": "Cromo GTF", "desc2": "100 mg" },
+        { "desc1": "Picolinato de Cromo", "desc2": "150 mg" }
+      ],
+      "description3": "Quantidade: 30 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia antes do almoço"
+    },
+    {
+      "title": "Creatina Manipulada",
+      "description1": [
+        { "desc1": "Clonapure", "desc2": "1,8g" }
+      ],
+      "description3": "Quantidade: 30 sachês. Tomar 01 sachê em 200ml de água"
+    },
+    {
+      "title": "Manipulado para Desinflamação do Organismo (Reduzir Ferritina)",
+      "description1": [
+        { "desc1": "N-acetilcisteina", "desc2": "500 mg" },
+        { "desc1": "Natoquinase", "desc2": "150 mg" },
+        { "desc1": "Ácido Alfa Lipóico", "desc2": "200 mg" }
+      ],
+      "description3": "Quantidade: 30 cápsulas vegetais gastroresistentes isentas de lactose sem conservantes. Tomar 01 cápsula/dia após o café da manhã"
+    },
+    {
+      "title": "Manipulado de Magnésio",
+      "description1": [
+        { "desc1": "Magnésio Treonato", "desc2": "300 mg" },
+        { "desc1": "Magnésio Inositol", "desc2": "150 mg" },
+        { "desc1": "Melatonina", "desc2": "3 mg" }
+      ],
+      "description3": "Quantidade: 60 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia à noite"
+    },
+    {
+      "title": "Manipulado para Reduzir Metal Pesado (Alumínio)",
+      "description1": [
+        { "desc1": "Chlorela Vulgaris", "desc2": "300 mg" },
+        { "desc1": "Ácido Málico", "desc2": "100 mg" },
+        { "desc1": "Coentro", "desc2": "300 mg" },
+        { "desc1": "Silício Orgânico", "desc2": "150 mg" }
+      ],
+      "description3": "Quantidade: 30 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia 30 min antes do almoço"
+    },
+    {
+      "title": "Manipulado para o aumento do Cortisol",
+      "description1": [
+        { "desc1": "Alcaçuz (licorice) Extrato seco 10%", "desc2": "200 mg" }
+      ],
+      "description3": "Quantidade: 60 cápsulas. Tomar 01 cápsula 2 vezes/dia"
+    },
+    {
+      "title": "Glutamina Manipulada",
+      "description1": [
+        { "desc1": "Glutamina 100% pura", "desc2": "200 g" }
+      ],
+      "description3": "Pote com col/medida. Tomar 5g/dia dissolvida em 200ml de água"
+    },
+    {
+      "title": "Manipulado para Proteção da Tireóide",
+      "description1": [
+        { "desc1": "Zinco Quelato", "desc2": "20 mg" },
+        { "desc1": "Selênio Quelato", "desc2": "50 mg" },
+        { "desc1": "Ferro Quelato", "desc2": "50 mg" },
+        { "desc1": "Cobre Quelato", "desc2": "50 mcg" },
+        { "desc1": "L - Tirosina", "desc2": "300 mg" }
+      ],
+      "description3": "Quantidade: 30 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia após o almoço"
+    },
+    {
+      "title": "Manipulado para auxiliar no aumento da Testosterona",
+      "description1": [
+        { "desc1": "Tribullus Terrestris", "desc2": "150 mg" },
+        { "desc1": "Maca Peruana", "desc2": "200 mg" },
+        { "desc1": "Saw Palmetto", "desc2": "100 mg" },
+        { "desc1": "Feno Grego", "desc2": "200 mg" }
+      ],
+      "description3": "Quantidade: 30 doses em cápsulas vegetais isentas de lactose. Tomar 01 dose ao deitar e 01 dose antes do café da manhã"
+    },
+    {
+      "title": "Manipulado para Ganho de Massa Muscular",
+      "description1": [
+        { "desc1": "Peptistrong", "desc2": "2,4 g" }
+      ],
+      "description3": "Quantidade: 30 sachês (sem sabor). Tomar 01 sachê em 200ml de água"
+    },
+    {
+      "title": "Manipulado para Desinflamação do Fígado",
+      "description1": [
+        { "desc1": "Silimarina", "desc2": "250 mg" },
+        { "desc1": "L - Metionina", "desc2": "100 mg" }
+      ],
+      "description3": "Quantidade: 30 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia antes do almoço"
+    },
+    {
+      "title": "Manipulado para Constipação Intestinal",
+      "description1": [
+        { "desc1": "Lactobacillus Rhamnosus", "desc2": "1 bilhão UFC" },
+        { "desc1": "Lactobacillus Paracasei", "desc2": "1 bilhão UFC" },
+        { "desc1": "Lactobacillus Lactis", "desc2": "1 bilhão UFC" },
+        { "desc1": "Bifidobacterium Bifidum", "desc2": "1 bilhão UFC" },
+        { "desc1": "Pectina", "desc2": "300 mg" }
+      ],
+      "description3": "Quantidade: 30 cápsulas gastroresistentes. Tomar 01 cápsula/dia à noite"
+    },
+    {
+      "title": "Manipulado para o aumento da Ferritina",
+      "description1": [
+        { "desc1": "Ferro Lipossomal", "desc2": "100 mg" },
+        { "desc1": "Base Lipossomal", "desc2": "0,5ml" }
+      ],
+      "description3": "Quantidade: 30 doses vegetais isentas de lactose. Tomar 01 dose/dia após o almoço"
+    },
+    {
+      "title": "Manipulado para auxiliar no tratamento da Osteopenia, Osteomalacia e Osteoporose",
+      "description1": [
+        { "desc1": "MSM", "desc2": "200 mg" },
+        { "desc1": "UC - II", "desc2": "40 mg" },
+        { "desc1": "Boro Quelato", "desc2": "3 mg" },
+        { "desc1": "Manganês Quelato", "desc2": "2,5 mg" },
+        { "desc1": "Magnésio Bisglicinato", "desc2": "250 mg" },
+        { "desc1": "Cálcio Citrato", "desc2": "500 mg" },
+        { "desc1": "Ácido Hialurônico", "desc2": "50 mg" }
+      ],
+      "description3": "Quantidade: 60 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia após o café da manhã"
+    },
+    {
+      "title": "Manipulado de Coenzima Q10",
+      "description1": [
+        { "desc1": "Coenzima Q10", "desc2": "200 mg" }
+      ],
+      "description3": "Quantidade: 30 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia após o almoço"
+    },
+    {
+      "title": "Probiótico para Constipação Intestinal",
+      "description1": [
+        { "desc1": "Intense # 112,5", "desc2": "150 mg" }
+      ],
+      "description3": "Quantidade: 30 cápsulas gastroresistentes. Tomar 01 cápsula/dia à noite"
+    },
+    {
+      "title": "Manipulado para Queda de Cabelo",
+      "description1": [
+        { "desc1": "Bloomé", "desc2": "300 mg" }
+      ],
+      "description3": "Quantidade: 30 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia"
     }
-    ],
-    "Novo modelo": [
-  {
-    "title": "Manipulado para deficiência de Vitaminas",
-    "description1": [
-      { "desc1": "Vitamina D3 Lipofílica", "desc2": "8000 UI" },
-      { "desc1": "Vitamina A Lipofílica", "desc2": "600 UI" },
-      { "desc1": "Vitamina K2Mk7", "desc2": " 150 mcg" },
-      { "desc1": "Vitamina E (mix de tecoferois) ", "desc2": "500 ui" }
-    ],
-    "description3": "Excipiente Lipofílico (TCM ou óleo de coco) q.s.p. Quantidade: 60 cápsulas. Tomar 01 cápsula/dia após o almoço"
-  },
-  {
-    "title": "Manipulado para deficiência de Vitamina B12, B6 e Ácido Fólico",
-    "description1": [
-      { "desc1": "Metilcobalamina", "desc2": "1000mcg" },
-      { "desc1": "Metilfolato", "desc2": "300mcg" },
-      { "desc1": "Piridoxal - 5 fosfato ", "desc2": "30mg" }
-    ],
-    "description3": "Quantidade: 60 doses - gotas sublinguais/dia. Tomar 01 dose antes do café da manhã"
-  },
-  {
-    "title": "Manipulado para deficiência de Minerais e Viraminas",
-    "description1": [
-      { "desc1": "Zinco Quelato", "desc2": " 20 mg" },
-      { "desc1": "Selênio Quelato", "desc2": "50 mcg" },
-      { "desc1": "Vitamina B2", "desc2": "20 mg" },
-      { "desc1": "Vitamina B3", "desc2": "20 mg" },
-      { "desc1": "Vitamina C", "desc2": "500 mg" },
-      { "desc1": "PQQ", "desc2": "30 mg" }
-    ],
-    "description3": "Quantidade: 60 cápsulas. Tomar 01 cápsula/dia após o almoço"
-  },
-  {
-    "title": "Manipulado para Reduzir Glicemia e Insulina",
-    "description1": [
-      { "desc1": "Berberina", "desc2": "300 mg" },
-      { "desc1": "Red Yeast", "desc2": "200 mg " },
-      { "desc1": "Cromo GTF", "desc2": "100 mg" },
-      { "desc1": "Picolinato de Cromo", "desc2": "150 mg" }
-    ],
-    "description3": "Quantidade: 30 cápsulas. Tomar 01 cápsula/dia antes do almoço"
-  },
-  {
-    "title": "Creatina Manipulada",
-    "description1": [
-      { "desc1": "Clonapure", "desc2": "1,8g" }
-    ],
-    "description3": "Quantidade: 30 sachês. Tomar 01 sachê em 200ml de água"
-  }
-]
-  }
-  
+  ]
+}

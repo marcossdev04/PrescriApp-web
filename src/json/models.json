@@ -26,17 +26,18 @@
         { "desc1": "Selênio Quelato", "desc2": "50 mcg" },
         { "desc1": "Vitamina B2", "desc2": "20 mg" },
         { "desc1": "Vitamina B3", "desc2": "20 mg" },
-        { "desc1": "PQQ", "desc2": "30 mg" },
-        { "desc1": "Berberina", "desc2": "300 mg" },
-        { "desc1": "Red Yeast", "desc2": "200 mg" },
-        { "desc1": "Cromo GTF", "desc2": "100 mg" },
-        { "desc1": "Picolinato de Cromo", "desc2": "150 mg" }
+        { "desc1": "PQQ", "desc2": "30 mg" }
       ],
       "description3": "Quantidade: 30 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia após o almoço"
     },
     {
       "title": "Fórmula para Reduzir Glicemia e Insulina",
-      "description1": [],
+      "description1": [  
+      { "desc1": "Berberina", "desc2": "300 mg" },
+      { "desc1": "Red Yeast", "desc2": "200 mg" },
+      { "desc1": "Cromo GTF", "desc2": "100 mg" },
+      { "desc1": "Picolinato de Cromo", "desc2": "150 mg" }
+    ],
       "description3": "Quantidade: 30 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia antes do almoço"
     },
     {

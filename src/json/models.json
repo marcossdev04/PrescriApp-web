@@ -1,7 +1,7 @@
 {
   "Prescrições Teresa Cristina": [
     {
-      "title": "Manipulado para deficiência de Vitaminas",
+      "title": "Fórmula para deficiência de Vitaminas D, A K e E",
       "description1": [
         { "desc1": "Vitamina D3 Lipofílica", "desc2": "5000 UI" },
         { "desc1": "Vitamina A Lipofílica", "desc2": "600 UI" },
@@ -11,7 +11,7 @@
       "description3": "Excipiente Lipofílico (TCM ou óleo de coco) q.s.p. Quantidade: 30 cápsulas. Tomar 01 cápsula/dia após o almoço"
     },
     {
-      "title": "Manipulado para deficiência de Vitamina B12, B6 e Ácido Fólico",
+      "title": "Fórmula para deficiência de Vitamina B12, B6 e Ácido Fólico",
       "description1": [
         { "desc1": "Metilcobalamina", "desc2": "1000mcg" },
         { "desc1": "Metilfolato", "desc2": "300mcg" },
@@ -20,26 +20,23 @@
       "description3": "Quantidade: 30 doses - gotas sublinguais/dia. Tomar 01 dose antes do café da manhã"
     },
     {
-      "title": "Manipulado para deficiência de Minerais e Vitaminas",
+      "title": "Fórmula para deficiência de Minerais e Vitaminas e Vitaminas",
       "description1": [
         { "desc1": "Zinco Quelato", "desc2": "20 mg" },
         { "desc1": "Selênio Quelato", "desc2": "50 mcg" },
         { "desc1": "Vitamina B2", "desc2": "20 mg" },
         { "desc1": "Vitamina B3", "desc2": "20 mg" },
-        { "desc1": "Vitamina C", "desc2": "500 mg" },
         { "desc1": "PQQ", "desc2": "30 mg" },
-        { "desc1": "Ferro Quelato", "desc2": "50 mg" }
-      ],
-      "description3": "Quantidade: 30 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia após o almoço"
-    },
-    {
-      "title": "Manipulado para Reduzir Glicemia e Insulina",
-      "description1": [
         { "desc1": "Berberina", "desc2": "300 mg" },
         { "desc1": "Red Yeast", "desc2": "200 mg" },
         { "desc1": "Cromo GTF", "desc2": "100 mg" },
         { "desc1": "Picolinato de Cromo", "desc2": "150 mg" }
       ],
+      "description3": "Quantidade: 30 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia após o almoço"
+    },
+    {
+      "title": "Fórmula para Reduzir Glicemia e Insulina",
+      "description1": [],
       "description3": "Quantidade: 30 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia antes do almoço"
     },
     {
@@ -59,16 +56,16 @@
       "description3": "Quantidade: 30 cápsulas vegetais gastroresistentes isentas de lactose sem conservantes. Tomar 01 cápsula/dia após o café da manhã"
     },
     {
-      "title": "Manipulado de Magnésio",
+      "title": "Fórmula de Magnésio",
       "description1": [
         { "desc1": "Magnésio Treonato", "desc2": "300 mg" },
-        { "desc1": "Magnésio Inositol", "desc2": "150 mg" },
+        { "desc1": "Magnésio Bisglicinato", "desc2": "150 mg" },
         { "desc1": "Melatonina", "desc2": "3 mg" }
       ],
       "description3": "Quantidade: 60 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia à noite"
     },
     {
-      "title": "Manipulado para Reduzir Metal Pesado (Alumínio)",
+      "title": "Fórmula para Reduzir Metal Pesado (Alumínio)",
       "description1": [
         { "desc1": "Chlorela Vulgaris", "desc2": "300 mg" },
         { "desc1": "Ácido Málico", "desc2": "100 mg" },
@@ -78,7 +75,7 @@
       "description3": "Quantidade: 30 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia 30 min antes do almoço"
     },
     {
-      "title": "Manipulado para o aumento do Cortisol",
+      "title": "Fórmula para o aumento do Cortisol",
       "description1": [
         { "desc1": "Alcaçuz (licorice) Extrato seco 10%", "desc2": "200 mg" }
       ],
@@ -92,18 +89,17 @@
       "description3": "Pote com col/medida. Tomar 5g/dia dissolvida em 200ml de água"
     },
     {
-      "title": "Manipulado para Proteção da Tireóide",
+      "title": "Fórmula para Proteção da Tireóide",
       "description1": [
         { "desc1": "Zinco Quelato", "desc2": "20 mg" },
         { "desc1": "Selênio Quelato", "desc2": "50 mg" },
-        { "desc1": "Ferro Quelato", "desc2": "50 mg" },
         { "desc1": "Cobre Quelato", "desc2": "50 mcg" },
         { "desc1": "L - Tirosina", "desc2": "300 mg" }
       ],
       "description3": "Quantidade: 30 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia após o almoço"
     },
     {
-      "title": "Manipulado para auxiliar no aumento da Testosterona",
+      "title": "Fórmula para auxiliar no aumento da Testosterona",
       "description1": [
         { "desc1": "Tribullus Terrestris", "desc2": "150 mg" },
         { "desc1": "Maca Peruana", "desc2": "200 mg" },
@@ -113,14 +109,14 @@
       "description3": "Quantidade: 30 doses em cápsulas vegetais isentas de lactose. Tomar 01 dose ao deitar e 01 dose antes do café da manhã"
     },
     {
-      "title": "Manipulado para Ganho de Massa Muscular",
+      "title": "Fórmula para Ganho de Massa Muscular",
       "description1": [
         { "desc1": "Peptistrong", "desc2": "2,4 g" }
       ],
       "description3": "Quantidade: 30 sachês (sem sabor). Tomar 01 sachê em 200ml de água"
     },
     {
-      "title": "Manipulado para Desinflamação do Fígado",
+      "title": "Fórmula para Desinflamação do Fígado",
       "description1": [
         { "desc1": "Silimarina", "desc2": "250 mg" },
         { "desc1": "L - Metionina", "desc2": "100 mg" }
@@ -128,7 +124,7 @@
       "description3": "Quantidade: 30 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia antes do almoço"
     },
     {
-      "title": "Manipulado para Constipação Intestinal",
+      "title": "Probiótico para Constipação Intestinal",
       "description1": [
         { "desc1": "Lactobacillus Rhamnosus", "desc2": "1 bilhão UFC" },
         { "desc1": "Lactobacillus Paracasei", "desc2": "1 bilhão UFC" },
@@ -141,8 +137,8 @@
     {
       "title": "Manipulado para o aumento da Ferritina",
       "description1": [
-        { "desc1": "Ferro Lipossomal", "desc2": "100 mg" },
-        { "desc1": "Base Lipossomal", "desc2": "0,5ml" }
+        { "desc1": "Folifer (Ferro Lipossomal-pirofosfato férrico)", "desc2": "30 mg" },
+        { "desc1": "Vitamina C", "desc2": "100 mg" }
       ],
       "description3": "Quantidade: 30 doses vegetais isentas de lactose. Tomar 01 dose/dia após o almoço"
     },
@@ -174,11 +170,87 @@
       "description3": "Quantidade: 30 cápsulas gastroresistentes. Tomar 01 cápsula/dia à noite"
     },
     {
-      "title": "Manipulado para Queda de Cabelo",
+      "title": "Fórmula para Queda de Cabelo",
       "description1": [
         { "desc1": "Bloomé", "desc2": "300 mg" }
       ],
       "description3": "Quantidade: 30 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia"
+    },
+    {
+      "title": "Fórmula para auxiliar na Perda de Peso e Gordura Córporea",
+      "description1": [
+        { "desc1": "Slimpro", "desc2": "300 mg" },
+        { "desc1": "Curcumina Lipossomada", "desc2": "200 mg" },
+        { "desc1": "Piperina", "desc2": "5 mg" },
+        { "desc1": "Extrato seco de chá verde (50% catequinas)", "desc2": "300 mg" },
+        { "desc1": "Extrato seco de Citrus Aurantium (6% sinefrina)", "desc2": "200 mg" }
+      ],
+      "description3": "Excipiente q.s.p 01 dose. Quantidade: 60 doses/cápsulas vegetais isentas de lactose. Tomar 01 dose/dia, de preferência junto com uma das refeições"
+    },
+    {
+      "title": "Fórmula para Lipedema",
+      "description1": [
+        { "desc1": "Ácido Alfa Lipóico", "desc2": "50 mg" },
+        { "desc1": "Magnésio Bisglicinato", "desc2": "300 mg" },
+        { "desc1": "Astaxantina", "desc2": "4 mg" },
+        { "desc1": "Transresveratrol", "desc2": "100 mg" },
+        { "desc1": "Centella Asiática", "desc2": "150 mg" }
+      ],
+      "description3": "Quantidade: 60 doses/cápsulas vegetais isentas de lactose. Tomar 01 dose/dia, de preferência junto com uma das refeições"
+    },
+    {
+      "title": "Fórmula para Retenção Hídrica",
+      "description1": [
+        { "desc1": "Carqueia", "desc2": "250 mg" },
+        { "desc1": "Cavalinha", "desc2": "200 mg" },
+        { "desc1": "Hibisco", "desc2": "100 mg" },
+        { "desc1": "Opuntia Ficus", "desc2": "250 mg" }
+      ],
+      "description3": "Excipiente q.s.p. Quantidade: 60 doses/cápsulas vegetais isentas de lactose. Tomar 01 dose após o almoço"
+    },
+    {
+      "title": "Fórmula para perda de peso",
+      "description1": [
+        { "desc1": "Clock", "desc2": "400 mg" }
+      ],
+      "description3": "Quantidade: 60 cápsulas vegetais isentas de lactose. Tomar 01 dose ao dormir"
+    },
+    {
+      "title": "Fórmula para quebra de biofilme intestinal e disbiose fúngica",
+      "description1": [
+        { "desc1": "NAC", "desc2": "500 mg" },
+        { "desc1": "Natoquinase", "desc2": "100 mg" },
+        { "desc1": "Serrapeptase", "desc2": "40 mg" },
+        { "desc1": "Berberina", "desc2": "100 mg" }
+      ],
+      "description3": "Excipiente q.s.p. Quantidade: 60 doses/cápsulas vegetais isentas de lactose. Tomar 01 dose em jejum"
+    },
+    {
+      "title": "Fórmula Antiparasitária",
+      "description1": [
+        { "desc1": "Berberina HCI", "desc2": "300 mg" },
+        { "desc1": "Extrato de alho (padronizado)", "desc2": "200 mg" },
+        { "desc1": "Óleo de orégano (padronizado >70% carvacrol)", "desc2": "100 mg" },
+        { "desc1": "Artemísia annua (extrato seco)", "desc2": "150 mg" }
+      ],
+      "description3": "Excipiente q.s.p. Quantidade: 30 doses/cápsulas gastrorresistentes. Tomar 01 dose 2x/dia antes das principais refeições"
+    },
+    {
+      "title": "Fórmula para Neuromodulação para Ansiedade, Insônia - age como calmante natural",
+      "description1": [
+        { "desc1": "Passiflora incarnata ext. seco padronizado", "desc2": "50 mg" },
+        { "desc1": "L-Teanina", "desc2": "80 mg" },
+        { "desc1": "Camomila ext. seco padronizado", "desc2": "60 mg" },
+        { "desc1": "Magnésio Bisglicinato", "desc2": "60 mg" }
+      ],
+      "description3": "Sem açúcar/sem corante artificial - somente stevia. Quantidade: 30 sachês. Tomar 01 sachê de preferência antes de dormir"
+    },
+    {
+      "title": "Fórmula para Insônia Infantil",
+      "description1": [
+        { "desc1": "Herbatonin - Fitomelatonina vegetal padronizada em 1% de melatonina vegetal", "desc2": "30 mg" }
+      ],
+      "description3": "Excipiente q.s.p. Quantidade: 30 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia, 2h antes de dormir"
     }
   ]
 }

@@ -24,6 +24,13 @@ export default function Template() {
             </div>
           </div>
         </Link>
+        <Link href={`/model/1`}>
+          <div className="flex justify-between border-b p-3">
+            <div className="text-xl font-medium">
+              Prescrições Daniele Christine
+            </div>
+          </div>
+        </Link>
       </div>
     </div>
   )

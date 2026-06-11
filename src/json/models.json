@@ -253,5 +253,35 @@
       ],
       "description3": "Excipiente q.s.p. Quantidade: 30 cápsulas vegetais isentas de lactose. Tomar 01 cápsula/dia, 2h antes de dormir"
     }
+  ],
+  "Prescrições Daniele Christine": [
+    {
+      "title": "Fórmula para Endometriose e Adenomiose",
+      "description1": [
+        { "desc1": "Miodesin", "desc2": "300 mg" },
+        { "desc1": "Piperina", "desc2": "3 mg" },
+        { "desc1": "Trans - Resveratrol", "desc2": "100 mg" },
+        { "desc1": "Cúrcuma", "desc2": "150 mg" },
+        { "desc1": "Uxi Amarelo", "desc2": "250 mg" },
+        { "desc1": "Vitex agnus-castus", "desc2": "150 mg" }
+      ],
+      "description3": "Quantidade: 60 doses/cápsulas vegetais isentas de lactose. Tomar 01 dose/cápsula/dia após o almoço e 01 dose após o jantar"
+    },
+    {
+      "title": "Fórmula para Modulação Intestinal",
+      "description1": [
+        { "desc1": "Magnésio Citrato", "desc2": "250 mg" },
+        { "desc1": "Psyllium", "desc2": "400 mg" }
+      ],
+      "description3": "Quantidade: 30 doses/cápsulas vegetais isentas de lactose. Tomar 01 dose/dia após o café da manhã"
+    },
+    {
+      "title": "Fórmula para Desinflamação do Organismo",
+      "description1": [
+        { "desc1": "NAC", "desc2": "500 mg" },
+        { "desc1": "Quercetina", "desc2": "200 mg" }
+      ],
+      "description3": "Quantidade: 30 doses/cápsulas vegetais isentas de lactose. Tomar 01 dose em jejum ou duas horas depois do almoço"
+    }
   ]
 }

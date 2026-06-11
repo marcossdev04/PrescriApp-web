@@ -12,13 +12,15 @@ export default function Model({ params }: Props) {
   const selectedData =
     params.id === '0'
       ? data['Prescrições Teresa Cristina']
-      : [
-          {
-            title: null,
-            description1: [{ desc1: null, desc2: null }],
-            description3: null,
-          },
-        ]
+      : params.id === '1'
+        ? data['Prescrições Daniele Christine']
+        : [
+            {
+              title: null,
+              description1: [{ desc1: null, desc2: null }],
+              description3: null,
+            },
+          ]
 
   const [title, setTitle] = useState<string>('')
 
